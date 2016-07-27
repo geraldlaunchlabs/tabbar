@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
-
+@interface SecondViewController : UIViewController<UIScrollViewDelegate> {
+    UIScrollView *myScrollView;
+    UIImageView *imgView;
+    IBOutlet UITableView *myTableView;
+    NSMutableArray *myData;
+}
 @end
 

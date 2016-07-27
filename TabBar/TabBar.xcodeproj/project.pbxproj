@@ -16,6 +16,9 @@
 		605992951D48B0E7001F284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605992931D48B0E7001F284D /* LaunchScreen.storyboard */; };
 		605992A01D48B0E7001F284D /* TabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6059929F1D48B0E7001F284D /* TabBarTests.m */; };
 		605992AB1D48B0E7001F284D /* TabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605992AA1D48B0E7001F284D /* TabBarUITests.m */; };
+		605992B91D48B568001F284D /* AppleUSA1.png in Resources */ = {isa = PBXBuildFile; fileRef = 605992B81D48B568001F284D /* AppleUSA1.png */; };
+		605992BB1D48B570001F284D /* AppleUSA2.png in Resources */ = {isa = PBXBuildFile; fileRef = 605992BA1D48B570001F284D /* AppleUSA2.png */; };
+		605992BD1D48C237001F284D /* AppleUSA3.png in Resources */ = {isa = PBXBuildFile; fileRef = 605992BC1D48C237001F284D /* AppleUSA3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		605992A61D48B0E7001F284D /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605992AA1D48B0E7001F284D /* TabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarUITests.m; sourceTree = "<group>"; };
 		605992AC1D48B0E7001F284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605992B81D48B568001F284D /* AppleUSA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA1.png; path = ../../../../../Downloads/AppleUSA1.png; sourceTree = "<group>"; };
+		605992BA1D48B570001F284D /* AppleUSA2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA2.png; path = ../../../../../Downloads/AppleUSA2.png; sourceTree = "<group>"; };
+		605992BC1D48C237001F284D /* AppleUSA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA3.png; path = ../../../../../Downloads/AppleUSA3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 		605992811D48B0E7001F284D /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				605992BC1D48C237001F284D /* AppleUSA3.png */,
+				605992BA1D48B570001F284D /* AppleUSA2.png */,
+				605992B81D48B568001F284D /* AppleUSA1.png */,
 				605992851D48B0E7001F284D /* AppDelegate.h */,
 				605992861D48B0E7001F284D /* AppDelegate.m */,
 				605992881D48B0E7001F284D /* FirstViewController.h */,
@@ -248,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605992B91D48B568001F284D /* AppleUSA1.png in Resources */,
 				605992951D48B0E7001F284D /* LaunchScreen.storyboard in Resources */,
+				605992BD1D48C237001F284D /* AppleUSA3.png in Resources */,
 				605992921D48B0E7001F284D /* Assets.xcassets in Resources */,
+				605992BB1D48B570001F284D /* AppleUSA2.png in Resources */,
 				605992901D48B0E7001F284D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,6 +518,7 @@
 				605992B11D48B0E7001F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605992B21D48B0E7001F284D /* Build configuration list for PBXNativeTarget "TabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +527,7 @@
 				605992B41D48B0E7001F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605992B51D48B0E7001F284D /* Build configuration list for PBXNativeTarget "TabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +536,7 @@
 				605992B71D48B0E7001F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
